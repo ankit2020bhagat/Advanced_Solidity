@@ -15,5 +15,7 @@ describe("dynamicSizeArray",function(){
         await txn_Arrayfunction.wait();
         console.log("at index 4",await contract.temp());
         console.log("Array length: ",await contract.len());
+        console.log("Array :",await contract.getArray());
+
     }) 
 })
