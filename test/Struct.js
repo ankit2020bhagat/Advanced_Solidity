@@ -1,6 +1,6 @@
 const {ethers} = require("hardhat");
 
-describe.only("Struct ",function(){
+describe("Struct ",function(){
     let deployContract;
     it("Contract Deployement: ",async function(){
       const structContract = await ethers.getContractFactory("Struct");
