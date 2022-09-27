@@ -1,6 +1,6 @@
 const { ethers } = require("hardhat");
 
-describe.only("Passing a parameter to a Parent constructor:", function () {
+describe("Passing a parameter to a Parent constructor:", function () {
     let deployContract;
 
     it("Deploying Contract A1:", async function () {
